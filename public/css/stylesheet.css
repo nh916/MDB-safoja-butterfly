@@ -1,6 +1,8 @@
 .intro-2 {
-    background: url("https://images.unsplash.com/photo-1513897962041-55f6de928dad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80")no-repeat center center;
+    background: url("../images/background2.jpeg")no-repeat center center;
     background-size: cover;
+    /* width: 20%;
+    height: 80%; */
 }
 
 .navbar {
