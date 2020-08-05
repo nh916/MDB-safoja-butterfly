@@ -31,7 +31,15 @@
     <link rel="stylesheet" href="../public/css/stylesheet.css">
 
 
-    <title>Document</title>
+    <title>Products and Prices</title>
+
+    <style>
+        .card-text {
+            font-weight: bold;
+            font-size: 1.5rem !important;
+            color: #351c75 !important;
+        }
+    </style>
 </head>
 
 
@@ -97,8 +105,9 @@
                     <!--Card image-->
                     <div class="view overlay">
                         <img class="card-img-top" src="../public/images/product1.jpeg" alt="Card image cap"
-                            style="transform: rotate(270deg)">
-                        <a href="#!">
+                            style="transform: rotate(270deg)" class="img-fluid">
+                        <a href="#!" data-size="1600x1067">
+
                             <div class="mask rgba-white-slight"></div>
                         </a>
                     </div>
@@ -106,12 +115,10 @@
                     <!--Card content-->
                     <div class="card-body">
 
+                        <!--Text-->
+                        <p class="card-text">Each package contains 100 butterflies.</p>
                         <!--Title-->
                         <h4 class="card-title">$30</h4>
-                        <!--Text-->
-                        <p class="card-text">Each package contains 100 pieces</p>
-                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                        <!-- <button type="button" class="btn btn-light-blue btn-md">Read more</button> -->
                         <br>
 
                     </div>
@@ -137,7 +144,7 @@
                         <!--Title-->
                         <h4 class="card-title">$30</h4>
                         <!--Text-->
-                        <p class="card-text">Each package contains 100 pieces</p>
+                        <p class="card-text">Each package contains 100 butterflies.</p>
                         <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                         <!-- <button type="button" class="btn btn-light-blue btn-md">Read more</button> -->
                         <br>
@@ -165,7 +172,7 @@
                         <!--Title-->
                         <h4 class="card-title">$32</h4>
                         <!--Text-->
-                        <p class="card-text">Each package contains 8 bags that contain 12 butterflies inside</p>
+                        <p class="card-text">Each package contains 8 bags that contain 12 butterflies inside.</p>
                         <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                         <!-- <button type="button" class="btn btn-light-blue btn-md">Read more</button> -->
                         <br>
@@ -193,7 +200,8 @@
                         <!--Title-->
                         <h4 class="card-title">$6</h4>
                         <!--Text-->
-                        <p class="card-text">Each package contains a dozen butterflies. 6 on the front and 6 on the back
+                        <p class="card-text">Each package contains a dozen butterflies. 6 on the front and 6 on the
+                            back.
                         </p>
                         <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                         <!-- <button type="button" class="btn btn-light-blue btn-md">Read more</button> -->
@@ -299,6 +307,12 @@
 
 
 
+    <script>
+        // MDB Lightbox Init
+        $(function () {
+            $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+        });
+    </script>
 
 
 </body>
