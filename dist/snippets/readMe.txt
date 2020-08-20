@@ -1,0 +1,2 @@
+this is a directory with bunch of code snippets to be kept and used often
+if it could be done in a reusable way only the snippets would be used and not repeated html code, but html code cannot be abstracted and used that way

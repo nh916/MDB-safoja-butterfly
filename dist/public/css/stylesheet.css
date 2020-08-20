@@ -1,0 +1,66 @@
+.intro-2 {
+    background: url("../images/background2.jpeg")no-repeat center center;
+    background-size: cover;
+    /* width: 20%;
+    height: 80%; */
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #300E35;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #300E35;
+    }
+}
+
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+
+html {
+    font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+    html {
+        font-size: 1.2rem;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    html {
+        font-size: 1.4rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    html {
+        font-size: 1.6rem;
+    }
+}
+
+.navbar-margin {
+    margin-bottom: 7rem;
+}
+
+
+.nav-background-color {
+    background-color: green !important;
+}
+
+
+footer {
+    /* position: absolute; */
+    margin-top: 10%;
+    margin-bottom: 0%;
+}
