@@ -41,7 +41,7 @@ Vue.component('safoja-navigation', {
 
                     <!-- instagram link -->
                     <li class="nav-item">
-                        <a class="nav-link" href="https://www.instagram.com/magnet_butterflies/">
+                        <a class="nav-link" href="https://www.instagram.com/magnet.butterflies/">
                             <i class="fab fa-instagram"></i> Instagram</a>
                     </li>
                     <!-- instagram long link -->

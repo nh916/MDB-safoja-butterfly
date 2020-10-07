@@ -24,7 +24,7 @@ Vue.component('safoja-footer', {
                         <!-- facebook footer -->
 
                         <!--Instagram-->
-                        <a class="ins-ic" href="https://www.instagram.com/magnet_butterflies/">
+                        <a class="ins-ic" href="https://www.instagram.com/magnet.butterflies/">
                             <i class="fab fa-instagram white-text"> </i>
                         </a>
 
